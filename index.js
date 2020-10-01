@@ -36,7 +36,7 @@ function newElement() {
     if (inputValue === '') {
         alert("You must write something!");
     } else {
-        li.appendChild(document.createTextNode("o̶̧̨̲͍̪̜̼͇͕̫͕̳̭̜̻̮̙̱̬͈͔͇̘̻͎͑̑̽̅̐̔̑͆̀́̄̈́͘͘͝͝͝h̵̡̛̩̥̗̰̣̱̳̳̰̙̪̮̬̳͇̺̖̯͔̩͉̺̘̓̄̋́̕̚͝ͅ ̵̧̧̬̬͓͉̝̠̱̥̯͇̘̩͉̤̲̘͔̬̘̬̳͊͒̍̆͑̑̃͗̂̎͛́̌̌̈́̓̏̏̈́̎̌͂̔̇̚̕̕͠͝ͅs̶̡̡̢̡̻͔͖̖̤͔̹̝͇͕͓͖͖͓̣͆̑͒̎̏́̊̏̾̃̌̓͐̈́̃̾̒͌͝͝͝ͅḩ̵͇̰̦͕̦̝͚͉͎̩̱̥̰̬̹̼͓̺̯̠̦̪̻͈͙͚̬̱̊̍̽̄͛́͛͜ơ̸̗͚̥̼̱̲̈́̀͗͋̓̌̍͂͐̇͌͐̍̑̾̀̓͛͠o̶̧̼̹̻͉̺̥̗̩̖̳̙̓̑̿͛̑̌̀̿̾͐̓̽̉͛͒͂́̌͂͗̿̚͘͘̕͝ͅṭ̵̨̛̛͓͖̒̂̾̓̇͗̀͌̇̆́̐̀͌̀̂"));
+        //li.appendChild(document.createTextNode(""));
         document.getElementById("myUL").appendChild(li);
     }
 
