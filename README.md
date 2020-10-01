@@ -13,7 +13,7 @@
 - [x] Example fix, copy this as a template!
 
 ## Getting Started 🗺️
-- There are 5 bugs 🕷️ found in the source code of the JavaScript project. Find it, solve it, and open a PR!
+- There are 4 bugs 🕷️ found in the source code of the JavaScript project. Find it, solve it, and open a PR!
 - There are **additional freebie pull requests** you can claim by modifying this README file and:
     - Add instructions
     - Fix typos
