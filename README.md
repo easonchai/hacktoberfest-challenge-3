@@ -10,8 +10,8 @@
 - Have fun and support other open source projects!
 
 ## Fixed ✅
-- [x] Example fix, copy this as a template!
-
+- [x] Example fix, copy this as a template!redsfafvfcxvcxcx
+ahhh github is tough
 ## Getting Started 🗺️
 - There are 4 bugs 🕷️ found in the source code of the JavaScript project. Find it, solve it, and open a PR!
 - There are **additional freebie pull requests** you can claim by modifying this README file and:
