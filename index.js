@@ -23,7 +23,7 @@ for (i = 0; i < close.length; i++) {
 var list = document.querySelector('ul');
 list.addEventListener('click', function (ev) {
     if (ev.target.tagName === 'LI') {
-        ev.target.classList.toggle('cheked');
+        ev.target.classList.toggle('checked');
     }
 }, false);
 
@@ -36,7 +36,7 @@ function newElement() {
     if (inputValue === '') {
         alert("You must write something!");
     } else {
-        li.appendChild(document.createTextNode("o̶̧̨̲͍̪̜̼͇͕̫͕̳̭̜̻̮̙̱̬͈͔͇̘̻͎͑̑̽̅̐̔̑͆̀́̄̈́͘͘͝͝͝h̵̡̛̩̥̗̰̣̱̳̳̰̙̪̮̬̳͇̺̖̯͔̩͉̺̘̓̄̋́̕̚͝ͅ ̵̧̧̬̬͓͉̝̠̱̥̯͇̘̩͉̤̲̘͔̬̘̬̳͊͒̍̆͑̑̃͗̂̎͛́̌̌̈́̓̏̏̈́̎̌͂̔̇̚̕̕͠͝ͅs̶̡̡̢̡̻͔͖̖̤͔̹̝͇͕͓͖͖͓̣͆̑͒̎̏́̊̏̾̃̌̓͐̈́̃̾̒͌͝͝͝ͅḩ̵͇̰̦͕̦̝͚͉͎̩̱̥̰̬̹̼͓̺̯̠̦̪̻͈͙͚̬̱̊̍̽̄͛́͛͜ơ̸̗͚̥̼̱̲̈́̀͗͋̓̌̍͂͐̇͌͐̍̑̾̀̓͛͠o̶̧̼̹̻͉̺̥̗̩̖̳̙̓̑̿͛̑̌̀̿̾͐̓̽̉͛͒͂́̌͂͗̿̚͘͘̕͝ͅṭ̵̨̛̛͓͖̒̂̾̓̇͗̀͌̇̆́̐̀͌̀̂"));
+        li.appendChild(t);
         document.getElementById("myUL").appendChild(li);
     }
 
