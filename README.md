@@ -10,7 +10,10 @@
 - Have fun and support other open source projects!
 
 ## Fixed ✅
-- [x] Example fix, copy this as a template!
+- fixed the typo "cheked" in line 26
+- hidden line 39 which appends weird text behind newly-added titles
+- uncommented line 44 to clear input field
+- changed the x sign to ❌ in line 47
 
 ## Getting Started 🗺️
 - There are 4 bugs 🕷️ found in the source code of the JavaScript project. Find it, solve it, and open a PR!
