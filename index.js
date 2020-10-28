@@ -23,7 +23,8 @@ for (i = 0; i < close.length; i++) {
 var list = document.querySelector('ul');
 list.addEventListener('click', function (ev) {
     if (ev.target.tagName === 'LI') {
-        ev.target.classList.toggle('cheked');
+        /* Bug 1: Changed cheked to checked */
+        ev.target.classList.toggle('checked');
     }
 }, false);
 
@@ -36,15 +37,18 @@ function newElement() {
     if (inputValue === '') {
         alert("You must write something!");
     } else {
-        li.appendChild(document.createTextNode("o̶̧̨̲͍̪̜̼͇͕̫͕̳̭̜̻̮̙̱̬͈͔͇̘̻͎͑̑̽̅̐̔̑͆̀́̄̈́͘͘͝͝͝h̵̡̛̩̥̗̰̣̱̳̳̰̙̪̮̬̳͇̺̖̯͔̩͉̺̘̓̄̋́̕̚͝ͅ ̵̧̧̬̬͓͉̝̠̱̥̯͇̘̩͉̤̲̘͔̬̘̬̳͊͒̍̆͑̑̃͗̂̎͛́̌̌̈́̓̏̏̈́̎̌͂̔̇̚̕̕͠͝ͅs̶̡̡̢̡̻͔͖̖̤͔̹̝͇͕͓͖͖͓̣͆̑͒̎̏́̊̏̾̃̌̓͐̈́̃̾̒͌͝͝͝ͅḩ̵͇̰̦͕̦̝͚͉͎̩̱̥̰̬̹̼͓̺̯̠̦̪̻͈͙͚̬̱̊̍̽̄͛́͛͜ơ̸̗͚̥̼̱̲̈́̀͗͋̓̌̍͂͐̇͌͐̍̑̾̀̓͛͠o̶̧̼̹̻͉̺̥̗̩̖̳̙̓̑̿͛̑̌̀̿̾͐̓̽̉͛͒͂́̌͂͗̿̚͘͘̕͝ͅṭ̵̨̛̛͓͖̒̂̾̓̇͗̀͌̇̆́̐̀͌̀̂"));
+        /* Bug 2: Commented out the weird text. */
+        // li.appendChild(document.createTextNode("o̶̧̨̲͍̪̜̼͇͕̫͕̳̭̜̻̮̙̱̬͈͔͇̘̻͎͑̑̽̅̐̔̑͆̀́̄̈́͘͘͝͝͝h̵̡̛̩̥̗̰̣̱̳̳̰̙̪̮̬̳͇̺̖̯͔̩͉̺̘̓̄̋́̕̚͝ͅ ̵̧̧̬̬͓͉̝̠̱̥̯͇̘̩͉̤̲̘͔̬̘̬̳͊͒̍̆͑̑̃͗̂̎͛́̌̌̈́̓̏̏̈́̎̌͂̔̇̚̕̕͠͝ͅs̶̡̡̢̡̻͔͖̖̤͔̹̝͇͕͓͖͖͓̣͆̑͒̎̏́̊̏̾̃̌̓͐̈́̃̾̒͌͝͝͝ͅḩ̵͇̰̦͕̦̝͚͉͎̩̱̥̰̬̹̼͓̺̯̠̦̪̻͈͙͚̬̱̊̍̽̄͛́͛͜ơ̸̗͚̥̼̱̲̈́̀͗͋̓̌̍͂͐̇͌͐̍̑̾̀̓͛͠o̶̧̼̹̻͉̺̥̗̩̖̳̙̓̑̿͛̑̌̀̿̾͐̓̽̉͛͒͂́̌͂͗̿̚͘͘̕͝ͅṭ̵̨̛̛͓͖̒̂̾̓̇͗̀͌̇̆́̐̀͌̀̂"));
         document.getElementById("myUL").appendChild(li);
     }
 
     // The code below clears the input... maybe I should uncomment it
-    // document.getElementById("myInput").value = "";
+    /* Bug 3: Uncommented code for clearing text input. */
+    document.getElementById("myInput").value = "";
 
     var span = document.createElement("SPAN");
-    var txt = document.createTextNode("x");
+    /* Bug 4: Changed x to ❌ */
+    var txt = document.createTextNode("❌");
     span.className = "close";
     span.appendChild(txt);
     li.appendChild(span);

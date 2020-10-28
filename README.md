@@ -10,7 +10,10 @@
 - Have fun and support other open source projects!
 
 ## Fixed ✅
-- [x] Example fix, copy this as a template!
+- [x] Changed cheked to checked.
+- [x] Commented out the weird text.
+- [x] Uncommented code for clearing text input.
+- [x] Changed x to ❌.
 
 ## Getting Started 🗺️
 - There are 4 bugs 🕷️ found in the source code of the JavaScript project. Find it, solve it, and open a PR!
